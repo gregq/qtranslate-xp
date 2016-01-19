@@ -22,9 +22,9 @@
 /* qTranslate Widget */
 
 class ppqTranslateWidget extends WP_Widget {
-	function ppqTranslateWidget() {
+	function __construct() {
 		$widget_ops = array('classname' => 'widget_qtranslate', 'description' => __('Allows your visitors to choose a Language.','qtranslate') );
-		$this->WP_Widget('qtranslate', __('qTranslate Language Chooser','qtranslate'), $widget_ops);
+		parent::__construct('qtranslate', __('qTranslate Language Chooser','qtranslate'), $widget_ops);
 	}
 	
 	function widget($args, $instance) {
