@@ -91,10 +91,9 @@ function ppqtrans_adminHeader() {
 	echo ".ppqtrans_title_input{border:0 none;font-size:1.7em;outline-color:invert;outline-style:none;outline-width:medium;padding:0;width:100%}\n";
 	echo "#ppqtrans_textarea_content_ifr{min-height:450px!important;-moz-resize:both;-webkit-resize:both;resize:both}\n";
 	echo ".mce-wp-fullscreen button{display:none!important}\n";
-	echo ".ppqtrans_title_wrap{border-color:#CCCCCC;border-style:solid;border-width:1px;padding:2px 3px}\n";
+	echo ".ppqtrans_title_wrap{padding:2px 3px}\n";
 	echo "#ppqtrans_textarea_content{padding:6px;border:0 none;line-height:150%;outline:none;margin:0;width:100%;-moz-box-sizing:border-box;";
 	echo	"-webkit-box-sizing:border-box;-khtml-box-sizing:border-box;box-sizing:border-box}\n";
-	echo ".ppqtrans_title{text-transform:uppercase;font:16px Ubuntu!important;background-image: -ms-linear-gradient(bottom left, #0074A2 0%, #001824 100%);";
 	echo "background-image: -moz-linear-gradient(bottom left, #0074A2 0%, #001824 100%);background-image: -o-linear-gradient(bottom left, #0074A2 0%, #001824 100%);";
 	echo "background-image: -webkit-gradient(linear, left bottom, right top, color-stop(0, #0074A2), color-stop(1, #001824));";
 	echo "background-image: -webkit-linear-gradient(bottom left, #0074A2 0%, #001824 100%);background-image: linear-gradient(to top right, #0074A2 0%, #001824 100%);color:#fff;";
